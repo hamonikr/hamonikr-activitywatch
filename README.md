@@ -30,7 +30,7 @@ sudo apt install hamonikr-activitywatch
 ## Windows
 
 1) 아래 링크의 파일을 다운로드 후 실행
- https://github.com/ActivityWatch/activitywatch/releases/download/v0.10.0/activitywatch-v0.10.0-windows-x86_64-setup.exe
+ https://github.com/hamonikr/hamonikr-activitywatch/releases/download/1.0.0/activitywatch-v0.10.0-windows-x86_64-setup.exe
 
 2) 브라우저에서 url 열기 : http://localhost:5600/
 
@@ -39,7 +39,7 @@ sudo apt install hamonikr-activitywatch
 ## Mac
 
 1) 아래 링크의 파일을 다운로드 후 실행
- https://github.com/ActivityWatch/activitywatch/releases/download/v0.10.0/activitywatch-v0.10.0-macos-x86_64.dmg
+ https://github.com/hamonikr/hamonikr-activitywatch/releases/download/1.0.0/activitywatch-v0.10.0-macos-x86_64.dmg
 
 2) 브라우저에서 url 열기 : http://localhost:5600/
 

@@ -1,0 +1,16 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ActivityWatch
+Name[ko]=시스템 사용시간 보기
+GenericName=Time-tracking application
+GenericName[ko]=시스템 사용시간 보고서
+Comment=Open source time-tracking application with a focus on extensibility and privacy.
+Comment[ko]=시스템 사용시간을 보여주는 프로그램.
+Categories=Utility;
+Keywords=ActivityWatch;time-tracking;time;tracking;사용시간;추적;보고서;시스템;앱사용시간;시간;리포트;
+Type=Application
+Exec=/opt/activitywatch/ActivityWatch-Report_1.0.0.AppImage
+Icon=activitywatch
+Terminal=false
+NoDisplay=false
+Hidden=false

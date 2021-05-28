@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=ActivityWatch
+Name[ko]=시스템 사용시간 모니터링 ActivityWatch
+GenericName=Time-tracking application
+GenericName[ko]=시스템 이용 시간 모니터링
+Comment=Open source time-tracking application with a focus on extensibility and privacy.
+Comment[ko]=시스템 사용시간을 모니터링 하는 프로그램.
+Categories=Utility;
+Type=Application
+Exec=/opt/activitywatch/aw-qt
+Icon=activitywatch
+Terminal=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Hidden=false
+X-GNOME-Autostart-Delay=0

@@ -1,0 +1,12 @@
+Source: hamonikr-activitywatch
+Section: utils
+Priority: optional
+Maintainer: HamoniKR <pkg@hamonikr.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: hamonikr-activitywatch
+Architecture: all
+Depends:          
+Description: Time-tracking tool
+ 시스템 및 프로그램 사용시간을 볼 수 있는 프로그램.

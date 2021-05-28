@@ -1,0 +1,48 @@
+{
+  "name": "ActivityWatch",
+  "version": "1.0.0",
+  "description": "ActivityWatch Report",
+  "main": "activitywatch-report.js",
+  "build": {
+    "appId": "org.hamonikr.activitywatch",
+    "artifactName": "ActivityWatch-Report_${version}.${ext}",
+    "productName": "ActivityWatch",
+    "copyright": "Copyright © 2021 HamoniKR",
+    "linux": {
+      "target": "AppImage",      
+      "icon": "./imgs/activitywatch.png",
+      "category": "Utility"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "./imgs/activitywatch.png"
+    },
+    "files": [
+      "./node_modules/**/*",
+      "./imgs/**/*",
+      "*.js"
+    ],
+    "directories": {
+      "output": "dist",
+      "buildResources": "."
+    }    
+  },  
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder -wl"
+  },
+  "repository": "https://github.com/ActivityWatch/activitywatch",
+  "keywords": [
+    "ActivityWatch",
+    "time",
+    "tracking",
+    "usage"
+  ],
+  "author": "HamoniKR",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^13.0.1",
+    "pkg": "^5.2.1",
+    "electron-builder": "^22.10.5"
+  }
+}

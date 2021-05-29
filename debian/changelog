@@ -1,3 +1,9 @@
+hamonikr-activitywatch (2.0.0) jin; urgency=medium
+
+  * Apply New UI as Korean
+
+ -- HamoniKR <pkg@hamonikr.org>  Sat, 29 May 2021 21:12:15 +0900
+
 hamonikr-activitywatch (1.0.0) jin; urgency=medium
 
   * Release for HamoniKR 4.0

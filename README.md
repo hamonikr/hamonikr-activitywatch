@@ -54,6 +54,13 @@ sudo apt install hamonikr-activitywatch
 
 ![activitywatch](imgs/app2.png)
 
+# How to build (HamoniKR 4.0)
+Require packages
+ * nodejs
+ * npm
+ * electron , electron-build
+```
+```
 ## License
 
 [MPL-2.0](LICENSE.md)

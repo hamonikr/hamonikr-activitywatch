@@ -1,3 +1,16 @@
+hamonikr-activitywatch (2.2.0) jin; urgency=medium
+
+  * Removed aw-server-rust
+
+ -- HamoniKR <pkg@hamonikr.org>  Sun, 30 May 2021 10:45:22 +0900
+
+hamonikr-activitywatch (2.1.0) jin; urgency=medium
+
+  * Apply New UI as Korean to aw-server-rust
+  * Add aw-qt autostart after install
+
+ -- HamoniKR <pkg@hamonikr.org>  Sun, 30 May 2021 10:22:51 +0900
+
 hamonikr-activitywatch (2.0.0) jin; urgency=medium
 
   * Apply New UI as Korean

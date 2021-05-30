@@ -5,6 +5,7 @@
 이 프로그램은 시스템 및 프로그램의 사용시간을 모니터링해서 얼마나 많은 시간을 사용하는지 알 수 있게 보여줍니다. (윈도우, 리눅스, 맥 지원)
 
  * upstream : https://github.com/ActivityWatch/activitywatch
+ * upstream version : v0.10.0
 
 ![activitywatch](imgs/app1.png)
 
@@ -55,12 +56,13 @@ sudo apt install hamonikr-activitywatch
 ![activitywatch](imgs/app2.png)
 
 # How to build (HamoniKR 4.0)
-Require packages
- * nodejs
- * npm
- * electron , electron-build
-```
-```
+
+ * 빌드 문서 참고 : https://github.com/hamonikr/hamonikr-activitywatch/wiki
+ * upstream doc : https://docs.activitywatch.net/en/latest/installing-from-source.html
+ 
+## 한글 페이지 수정본은 아래 링크 참고
+ * https://github.com/chaeya/aw-webui
+
 ## License
 
 [MPL-2.0](LICENSE.md)

@@ -20,7 +20,7 @@ sudo apt install hamonikr-activitywatch
 
 `프로그램 메뉴 > 보조프로그램 > 시스템 사용시간 보기` 을 실행
 
-## Ubuntu (>=20.04), LinuxMint (>=20.1)
+## Ubuntu (>=18.04), LinuxMint (>=19)
 
 ```bash
 # Add repository

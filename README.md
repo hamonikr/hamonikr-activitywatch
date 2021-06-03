@@ -18,7 +18,7 @@ sudo apt install hamonikr-activitywatch
 ```
 프로그램 설치 후 시스템을 재시작하면 자동으로 프로그램이 시작되어 시스템 트레이에 아이콘이 나타납니다.
 
-`프로그램 메뉴 > 보조프로그램 > 시스템 사용시간 보기` 을 실행
+`프로그램 메뉴 > 보조프로그램 > 시스템 사용시간 보기` 를 실행
 
 ## Ubuntu (>=18.04), LinuxMint (>=19)
 
@@ -35,8 +35,6 @@ sudo apt install hamonikr-activitywatch
 
 2) 브라우저에서 url 열기 : http://localhost:5600/
 
-3) 항상 실행될 수 있도록 시작 프로그램에 등록
-
 ## Mac
 
 1) 아래 링크의 파일을 다운로드 후 실행
@@ -45,6 +43,11 @@ sudo apt install hamonikr-activitywatch
 2) 브라우저에서 url 열기 : http://localhost:5600/
 
 3) 항상 실행될 수 있도록 시작 프로그램에 등록
+
+# 웹사이트 분석(URL 추적)을 사용하고 싶은 경우
+사용하는 브라우저에 맞는 아래의 확장기능을 추가로 설치해야 합니다.
+* Chrome : https://chrome.google.com/webstore/detail/nglaklhklhcoonedhgnpgddginnjdadi/
+* Firefox : https://addons.mozilla.org/en-US/firefox/addon/aw-watcher-web/
 
 # 다른 시스템의 데이터를 내보내기 및 가져오기
 

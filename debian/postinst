@@ -1,8 +1,16 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
 case "$1" in
     configure)
+        # remove electron app cache
+        RUID=$(who | awk 'FNR == 1 {print $1}')
+        RUSER_UID=$(id -u ${RUID})
+        if [ -d "/home/${RUID}/.config/ActivityWatch" ]; then
+            echo "Remove App Cache..."
+            rm -rf /home/${RUID}/.config/ActivityWatch
+        fi
+
         update-desktop-database /usr/share/applications
         gtk-update-icon-cache
     ;;

@@ -7,7 +7,7 @@ build_node_app:
 	npm install && \
 	npm run build && \
 	cd ../ && \
-	cp -v activitywatch-report/dist/ActivityWatch-Report_1.0.0.AppImage opt/activitywatch/
+	cp -v activitywatch-report/dist/ActivityWatch-Report.AppImage opt/activitywatch/
 
 clean:
 	rm -fv opt/activitywatch/*.AppImage && \

@@ -1,15 +1,15 @@
 {
   "name": "ActivityWatch",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ActivityWatch Report",
   "main": "activitywatch-report.js",
   "build": {
     "appId": "org.hamonikr.activitywatch",
-    "artifactName": "ActivityWatch-Report_${version}.${ext}",
+    "artifactName": "ActivityWatch-Report.${ext}",
     "productName": "ActivityWatch",
     "copyright": "Copyright © 2021 HamoniKR",
     "linux": {
-      "target": "AppImage",      
+      "target": "AppImage",
       "icon": "./imgs/activitywatch.png",
       "category": "Utility"
     },
@@ -25,11 +25,11 @@
     "directories": {
       "output": "dist",
       "buildResources": "."
-    }    
-  },  
+    }
+  },
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder -wl"
+    "build": "electron-builder -l"
   },
   "repository": "https://github.com/ActivityWatch/activitywatch",
   "keywords": [

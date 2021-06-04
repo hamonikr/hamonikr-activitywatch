@@ -12,8 +12,8 @@ function createWindow () {
     }
   })
 
-  // and load the index.html of the app.
-  // mainWindow.loadFile('index.html')
+  // Clear Cache
+  mainWindow.webContents.session.clearStorageData()
 
   // Load URL
   mainWindow.loadURL("http://localhost:5600")  

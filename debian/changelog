@@ -1,3 +1,10 @@
+hamonikr-activitywatch (2.3.0) jin; urgency=medium
+
+  * Apply Korean UI
+  * Add Naver-whale trace
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 04 Jun 2021 15:30:26 +0900
+
 hamonikr-activitywatch (2.2.0) jin; urgency=medium
 
   * Removed aw-server-rust

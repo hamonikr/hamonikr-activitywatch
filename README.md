@@ -63,6 +63,10 @@ sudo apt install hamonikr-activitywatch
 
 ![activitywatch](imgs/app2.png)
 
+## 하모니카 ActivityWatch 사용 매뉴얼
+[해당 링크](https://docs.hamonikr.org/hamonikr/tips/activitywatch)를 통해 보다 자세한 사용 매뉴얼을 확인하실 수 있습니다.
+
+
 # How to build (HamoniKR 4.0)
 
  * 빌드 문서 참고 : https://github.com/hamonikr/hamonikr-activitywatch/wiki
